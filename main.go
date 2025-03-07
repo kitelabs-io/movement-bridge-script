@@ -1,13 +1,14 @@
 package main
 
 import (
-	"bridge/contracts"
 	"context"
 	"log"
 	"math/big"
 	"os"
 	"strings"
 	"time"
+
+	"github.com/kitelabs-io/movement-bridge-script/contracts"
 
 	"github.com/ethereum/go-ethereum/accounts/abi/bind"
 	"github.com/ethereum/go-ethereum/common"

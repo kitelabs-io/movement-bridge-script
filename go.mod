@@ -1,4 +1,4 @@
-module bridge
+module github.com/kitelabs-io/movement-bridge-script
 
 go 1.23.0
 
