@@ -8,8 +8,12 @@ The requirement to bridge token is that token is configured with layerzero oft a
 
 ## How to use:
 
-setup env and run script directly:
-
+- clone repo:
+```bash
+git clone https://github.com/kitelabs-io/movement-bridge-script
+cd movement-bridge-script
+```
+- setup env and run script:
 ```bash
 export RPC_URL=evm_source_chain_rpc
 export ADAPTER_ADDRESS=oft_adapter_on_source_chain
@@ -17,7 +21,7 @@ export BRIDGE_AMOUNT=amount_in_wei_on_source_chain
 export MOVE_ADDRESS=recipient_address 
 export PRIVATE_KEY=evm_source_chain_private_key
 
-go run github.com/kitelabs-io/movement-bridge-script
+go run main.go
 ```
 
 Some configured `ADAPTER_ADDRESS` on ethereum mainnet:
